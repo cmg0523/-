@@ -75,5 +75,14 @@
     <ClCompile Include="e6.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="e7.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="e8.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="e9.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

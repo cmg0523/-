@@ -27,6 +27,12 @@
     <ClCompile Include="덩치.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="자리배정연습.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="싸이클.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">

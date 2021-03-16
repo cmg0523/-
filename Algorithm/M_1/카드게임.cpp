@@ -1,15 +1,16 @@
 #include<iostream>
+#include <fstream>
 
 using namespace std;
 
 int main() {
-	freopen("input.txt", "r", stdin);
-	int A[10], B[10], i,a=0,b=0;
+	ifstream fin("input.txt");
+	int A[10], B[10], i, a = 0, b = 0;
 	for (i = 0; i < 10; i++) {
-		cin >> A[i];
+		fin >> A[i];
 	}
 	for (i = 0; i < 10; i++) {
-		cin >> B[i];
+		fin >> B[i];
 	}
 	for (i = 0; i < 10; i++) {
 		if (A[i] > B[i]) {

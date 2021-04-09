@@ -7,15 +7,19 @@ int main() {
 	cin >> N;
 	for (i = 0; i < N; i++) {
 		cin >> n[i];
+
+	}
+	for (i = 0; i < N; i++) {
 		if (n[i] == 1) {
-			cnt++;
-			sum += cnt;
-			if (n[i] == n[i + 1]) {
+			
 				cnt++;
 				sum += cnt;
-			}
+			
 		}
-		cnt = 0;
+		else {
+			cnt = 0;
+		}
+		
 	}
 
 	cout << sum;

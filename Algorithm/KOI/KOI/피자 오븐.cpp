@@ -7,6 +7,11 @@ int main() {
 	cin >> T;
 	for (i = 1; i <= T; i++) {
 		cin >> N;
+	} 
+	for (i = 1; i <= T; i++) {
+		if (N <= 5) {
+			t
+		}
 	}
 	for (i = 0; i < 5; i++) {
 
